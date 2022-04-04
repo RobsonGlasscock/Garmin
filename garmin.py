@@ -259,7 +259,7 @@ df_agg
 
 df_agg.to_excel("python_processed.xlsx", index=False)
 
-# Limit data to June 2020 and later.
+# Limit data to September 2020 and later.
 df_agg = df_agg[df_agg["Date"] >= "2020-09-01"]
 
 plt.bar(df_agg["Date"], df_agg["Cum_Miles_Monthly"], width=26.0)
